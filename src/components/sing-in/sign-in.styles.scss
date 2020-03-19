@@ -1,0 +1,19 @@
+.sign-in {
+  width: 430px;
+  display: flex;
+  flex-direction: column;
+
+  .title {
+    margin: 10px 0;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.sign-text {
+  font-size: 17px;
+  font-weight: 500;
+}
