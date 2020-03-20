@@ -16,11 +16,9 @@ const config = {
 export const createUserProfileDocument = async (userAuth, additionalData) => {
   if (!userAuth) return;
 
-  const userRef = firestore.doc(`users/${userAuth.uid}`); // Ссылка на путь к объекту внутри Фаербейс
+  const userRef = firestore.doc(`users/${userAuth.uid}`);
 
-  const snapShot = await userRef.get(); // Получаем данные по указанной выше ссылке. Если юзер новый, то данных у него не будет, то есть снепшот вернет нулл (или типо того)
-
-  // проверяем, если у нас уже такой юзер (то есть чекам, есть ли у него данные). snapShot.exists сразу указывает, есть ли какие-то данные по ссылке. Если юзера нет (нет снепшота), то мы создаем в базе даных нового юзера по указанному референсу с 3 полями. Через .set()
+  const snapShot = await userRef.get();
 
   if (!snapShot.exists) {
     const { displayName, email } = userAuth;
