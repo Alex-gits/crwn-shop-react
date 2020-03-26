@@ -4,7 +4,7 @@ import { addItemToCart, removeItemFromCart } from './cart.utils';
 const INITIAL_STATE = {
   hidden: true,
   cartItems: []
-}
+};
 
 const cartReducer = (state = INITIAL_STATE, action) => {
   switch (action.type) {
@@ -33,6 +33,6 @@ const cartReducer = (state = INITIAL_STATE, action) => {
     default:
       return state;
   }
-}
+};
 
 export default cartReducer;
