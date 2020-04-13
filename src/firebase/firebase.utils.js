@@ -66,7 +66,7 @@ export const addCollectionAndDocuments = async (collectionKey, objectsToAdd) => 
     batch.set(newDocRef, obj);
   })
 
-  return await batch.commit()
+  return await batch.commit();
 }
 
 export const getCurrentUser = () => {
