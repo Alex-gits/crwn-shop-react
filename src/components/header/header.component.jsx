@@ -13,7 +13,7 @@ import CartDropDown from '../cart-dropdown/cart-dropdown.component';
 
 import { HeaderContainer, LogoContainer, OptionsContainer, OptionLink  } from './header.styles';
 
-const Header = ( {currentUser, hidden, signOutStart} ) => (
+const Header = ({currentUser, hidden, signOutStart}) => (
   <HeaderContainer>
     <LogoContainer to='/'>
       <Logo className='logo' />

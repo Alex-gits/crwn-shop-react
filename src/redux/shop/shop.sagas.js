@@ -18,9 +18,7 @@ export function* fetchCollectionsAsync() {
 }
 
 export function* fetchCollectionStart() {
-  yield takeLatest(
-    ShopActionTypes.FETCH_COLLECTIONS_START,
-    fetchCollectionsAsync)
+  yield takeLatest(ShopActionTypes.FETCH_COLLECTIONS_START, fetchCollectionsAsync)
 }
 
 export function* shopSagas() {
