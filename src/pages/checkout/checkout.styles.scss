@@ -26,14 +26,8 @@
       }
 
       @media screen and (max-width: 800px) {
-        width: 22%;
+        display: none;
       }
-    }
-  }
-
-  .checkout-header:last-child {
-    @media screen and (max-width: 800px) {
-      width: 12%;
     }
   }
 
