@@ -1,0 +1,44 @@
+.contact {
+  padding: 40px 90px;
+
+  &-content {
+    font-size: 20px;
+
+    @media screen and (max-width: 500px) {
+      font-size: 18px;
+    }
+
+    @media screen and (max-width: 400px) {
+      font-size: 16px;
+    }
+  }
+
+  &-title {
+    @media screen and (max-width: 500px) {
+      font-size: 20px;
+      margin-bottom: 35px;
+    }
+  }
+
+  &-link {
+    color: #00a8ff;
+    text-decoration: underline;
+  }
+
+  li {
+    padding: 3px 0;
+  }
+
+  @media screen and (max-width: 800px) {
+    padding: 20px 40px;
+  }
+
+  @media screen and (max-width: 500px) {
+    padding: 10px 20px;
+  }
+
+  @media screen and (max-width: 420px) {
+    padding: 10px 5px;
+  }
+}
+

@@ -17,7 +17,7 @@ const CheckoutPage = ({ cartItems, total }) => (
         <span>TOTAL PRICE: ${total}</span>
       </div>
       :
-      <span className='no-items'>Your cart is empty (´• ω •)</span>
+      <span className='no-items'>Your cart is empty</span>
     }
     <div className='checkout-header'>
       <div className='header-block'>
@@ -42,7 +42,7 @@ const CheckoutPage = ({ cartItems, total }) => (
   <div className='test-warning'>
     *Please use the following credit card for payments*
     <br/>
-    4242 4242 4242 4242 - Exp: 01/20 - CVV: 123
+    4242 4242 4242 4242 - Exp: Any future date - CVV: Any 3 digits
   </div>
   <StripeCheckoutButton price={total} />
   </div>
