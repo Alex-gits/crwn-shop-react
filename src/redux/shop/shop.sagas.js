@@ -13,7 +13,7 @@ export function* fetchCollectionsAsync() {
     const collectionMap = yield call(convertCollectionsSnapshotToMap, snapshot);
     yield put(fetchCollectionsSuccess(collectionMap));
   } catch (error) {
-    yield put(fetchCollectionsFailure(error.message))
+    yield put(fetchCollectionsFailure(error.message));
   }
 }
 
