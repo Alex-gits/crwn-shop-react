@@ -1,11 +1,11 @@
 ## Hello, my name is Alexey and this is my pet-project.
 It was build with:
 
-1. [React.js](https://ru.reactjs.org/)
-2. [Redux Saga](https://redux-saga.js.org/)
-3. [React Router](https://reacttraining.com/react-router/web/guides/quick-start)
-4. [Firestore](https://firebase.google.com/docs/firestore) (for authentication and backend features)
-5. Some other small libraries (reselect, persist, etc)
+### 1. [React.js](https://ru.reactjs.org/)
+### 2. [Redux Saga](https://redux-saga.js.org/)
+### 3. [React Router](https://reacttraining.com/react-router/web/guides/quick-start)
+### 4. [Firestore](https://firebase.google.com/docs/firestore) (for authentication and backend features)
+### 5. Some other small libraries (reselect, persist, etc)
 
 ## Available Scripts
 
