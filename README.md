@@ -1,4 +1,5 @@
-## Hello, my name is Alexey and this is my pet-project.
+## Hello, this is my React.js pet-project. Building it I learnt about workflow in React enviroment as well as some most popular React libraries.
+
 It was build with:
 
 ### 1. [React.js](https://ru.reactjs.org/)
