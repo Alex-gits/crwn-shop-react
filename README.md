@@ -1,4 +1,4 @@
-## Hello, this is my React.js pet-project. Building it I learnt about workflow in React enviroment as well as some most popular React libraries.
+## Hello, this is my React.js pet-project. Building it I learned about workflow in React environment as well as some most popular React libraries.
 
 It was build with:
 
