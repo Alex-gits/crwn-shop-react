@@ -1,5 +1,7 @@
 ## Hello, this is my React.js pet-project. Building it I learned about workflow in React environment as well as some most popular React libraries.
 
+It was deployed to Heroku. You can check it [online](https://crwn-on.herokuapp.com/) (first visit may take some time).
+
 It was build with:
 
 ### 1. [React.js](https://ru.reactjs.org/)
