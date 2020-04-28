@@ -10,6 +10,9 @@ It was build with:
 ### 4. [Firestore](https://firebase.google.com/docs/firestore) (for authentication and backend features)
 ### 5. Some other small libraries (reselect, persist, etc)
 
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
